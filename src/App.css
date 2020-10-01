@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+
+.Block {
+  padding: 5px 25px 10px 25px;
+}
+
+.fontSize-heading {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.fontSize {
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+  background-color: white;
+}
+
+input[type="submit"] {
+  padding: 5px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  width: 80px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+  background-color: #282c34;
+  color: antiquewhite;
+}
+
+.general-padding-class {
+  padding-bottom: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
