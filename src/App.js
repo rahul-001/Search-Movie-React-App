@@ -87,7 +87,7 @@ class App extends React.Component {
           </div>}
 
           {
-            movie.length == 0 &&
+            movie.length === 0 &&
             <h3 style={{ marginLeft: 160 }}>No result found</h3>
           }
         </div>
